@@ -1,0 +1,26 @@
+---
+toc: false
+number-sections: false
+colorlinks: true
+fig-cap-location: top
+format:
+  pdf:
+    template: "compact.latex"
+    geometry:
+      - top=15mm
+      - bottom=15mm
+      - left=15mm
+      - right=15mm
+    papersize: a4
+    fontsize: 9pt
+    include-in-header: "header.tex"
+    include-before-body: "start.tex"
+---
+
+{{< include short.txt >}}
+
+![key-aa](key.pdf){#fig-qr-aa}
+
+{{< pagebreak >}}
+
+{{< include key.txt >}}

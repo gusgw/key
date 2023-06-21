@@ -1,0 +1,50 @@
+---
+toc: false
+number-sections: false
+colorlinks: true
+fig-cap-location: top
+format:
+  pdf:
+    template: "compact.latex"
+    geometry:
+      - top=15mm
+      - bottom=15mm
+      - left=15mm
+      - right=15mm
+    papersize: a4
+    fontsize: 9pt
+    include-in-header: "header.tex"
+    include-before-body: "start.tex"
+---
+
+{{< include short.txt >}}
+
+::: {layout="[[1,1], [1,1]]"}
+
+![key-aa](key-aa.pdf){#fig-qr-aa}
+
+![key-ab](key-ab.pdf){#fig-qr-ab}
+
+![key-ac](key-ac.pdf){#fig-qr-ac}
+
+![key-ad](key-ad.pdf){#fig-qr-ad}
+
+:::
+
+{{< pagebreak >}}
+
+::: {layout="[[1,1], [1,1]]"}
+
+![key-ae](key-ae.pdf){#fig-qr-ae}
+
+![key-af](key-af.pdf){#fig-qr-af}
+
+![key-ag](key-ag.pdf){#fig-qr-ag}
+
+![key-ah](key-ah.pdf){#fig-qr-ah}
+
+:::
+
+{{< pagebreak >}}
+
+{{< include key.txt >}}

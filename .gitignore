@@ -1,0 +1,2 @@
+# Do not version the generated PDFs
+*.pdf
